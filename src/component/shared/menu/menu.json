@@ -1,37 +1,20 @@
 {
     "menu": [
         {
-            "key": "LANDING_MENU",
+            "key": "BRIDGE_MENU",
             "children": [
                 {
-                    "uri": "landing/genesis",
-                    "key": "GENESIS_MENU"
+                    "uri": "mix",
+                    "key": "MIX_MENU"
                 },
                 {
-                    "uri": "landing/supernova",
-                    "key": "SUPERNOVA_MENU"
+                    "uri": "pax",
+                    "key": "PAX_MENU"
                 },
                 {
-                    "uri": "landing/stabledao",
-                    "key": "STABLEDAO_MENU"
+                    "uri": "ijm",
+                    "key": "IJM_MENU"
                 },
-                {
-                    "uri": "landing/dividend",
-                    "key": "DIVIDEND_MENU"
-                },
-                {
-                    "uri": "partners",
-                    "key": "PARTNERS_MENU"
-                },
-                {
-                    "uri": "team",
-                    "key": "TEAM_MENU"
-                }
-            ]
-        },
-        {
-            "key": "APP_MENU",
-            "children": [
                 {
                     "uri": "genesis",
                     "key": "GENESIS_MENU"

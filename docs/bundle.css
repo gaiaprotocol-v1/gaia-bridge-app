@@ -564,4 +564,404 @@ body {
 .user-menu > ul > li > a:active {
   color: #b19c76;
 }
+.mix-swaper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mix-swaper > .form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  width: 100%;
+}
+.mix-swaper > .form-container > .arrow {
+  float: left;
+  margin-top: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mix-swaper > .form-container > .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.mix-swaper > .form-container > .form > .chain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mix-swaper > .form-container > .form > .chain > img {
+  width: 52px;
+  height: 52px;
+}
+.mix-swaper > .form-container > .form > .chain > p {
+  margin-top: 12px;
+  color: #E0D8C8;
+}
+.mix-swaper > .form-container > .form > .chain > select {
+  border: solid 0.5px #666;
+  padding: 6px 8px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 12px;
+}
+.mix-swaper > .form-container > .form > .chain > select:focus {
+  border-color: #E0D8C8;
+}
+.mix-swaper > .form-container > .form > .balance {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #E0D8C8;
+}
+.mix-swaper > .form-container > .form > .input-container {
+  width: 100%;
+  margin-top: 12px;
+}
+.mix-swaper > .form-container > .form > .input-container > input {
+  border: solid 0.5px #666;
+  color: white;
+  background-color: black;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.mix-swaper > .form-container > .form > .input-container > input:focus {
+  border-color: #E0D8C8;
+}
+.mix-swaper > .form-container > .form > .button-container {
+  font-weight: 300;
+}
+.mix-swaper > .form-container > .form > .button-container > .send-button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #b19c76;
+  border-radius: 4px;
+}
+.mix-swaper > .form-container > .form > .button-container > .send-button:hover {
+  background-color: rgba(177, 156, 118, 0.9);
+}
+.mix-swaper > .form-container > .form > .button-container > .send-button:active {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.mix-swaper > .form-container > .form > .button-container > .connect-button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #b19c76;
+  border-radius: 4px;
+}
+.mix-swaper > .form-container > .form > .button-container > .connect-button:hover {
+  background-color: rgba(177, 156, 118, 0.9);
+}
+.mix-swaper > .form-container > .form > .button-container > .connect-button:active {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.mix-swaper > .fee-container {
+  padding: 0px 36px;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mix-swaper > .fee-container > .content {
+  display: flex;
+  align-items: baseline;
+}
+.mix-swaper > .fee-container > .content > h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mix-swaper > .fee-container > .content > span {
+  margin-left: 4px;
+  color: #e0d8c8;
+}
+.mix-swaper > .fee-container > p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.mix-swaper > .received-container {
+  padding: 0px 36px;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mix-swaper > .received-container > h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mix-swaper > .received-container > p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.mix-swaper > .warning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px 0px;
+  padding: 11px 0px;
+  background: rgba(224, 216, 200, 0.8);
+  border-radius: 4px;
+  text-align: left;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 300;
+}
+@media only screen and (max-width: 719px) {
+  .mix-swaper > .warning {
+    width: 90%;
+  }
+}
+.mix-swaper > .warning > img {
+  margin-right: 12px;
+}
+.mix-swaper > .button-container {
+  width: 100%;
+  max-width: 400px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.mix-swaper > .button-container > button {
+  width: 100%;
+  background-color: #b19c76;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 24px;
+  padding: 12px 48px;
+}
+.mix-swaper > .button-container > button:hover {
+  background-color: rgba(177, 156, 118, 0.9);
+}
+.mix-swaper > .button-container > button:active {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.mix-swaper > .history {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.mix-swaper > .history > h2 {
+  text-align: left;
+  font-weight: 500;
+  margin: 16px 0px;
+}
+.mix-swaper > .history > p {
+  color: #E0D8C8;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.mix-swaper > .history > hr {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  height: 0.5px;
+  color: rgba(224, 216, 200);
+  background-color: rgba(224, 216, 200);
+}
+.mix-swaper > .history > .sended-title {
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  color: #b19c76;
+}
+.mix-swaper > .history > .sended-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mix-swaper > .history > .sended-list > .sended {
+  font-size: 14px;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.mix-swaper > .history > .sended-list > tbody > .history-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4px 0px;
+}
+.mix-swaper > .history > .sended-list > tbody > .history-item > p {
+  font-size: 12px;
+  line-height: 12px;
+}
+.layout {
+  width: 100%;
+}
+.layout > header {
+  display: flex;
+  position: sticky;
+  justify-items: center;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+@media only screen and (max-width: 719px) {
+  .layout > header {
+    height: auto;
+  }
+}
+.layout > header > .nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  padding: 8px;
+}
+.layout > header > .nav > .logo {
+  flex-grow: 1;
+}
+.layout > header > .nav > .logo > a {
+  display: flex;
+  align-items: center;
+}
+.layout > header > .nav > .logo > a > img {
+  height: 36px;
+  margin-right: 4px;
+}
+.layout > header > .nav > .logo > a > h1 {
+  font-size: 20px;
+  font-family: 'Trajan Pro Bold';
+  color: #b19c76;
+}
+@media only screen and (max-width: 719px) {
+  .layout > header > .nav > .logo > a > h1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 719px) {
+  .layout > header > .nav > .pc-menu {
+    display: none;
+  }
+}
+.layout > header > .nav > .right {
+  display: flex;
+  align-items: center;
+}
+.layout > header > .nav > .right:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.layout > header > .nav > .right > .user-menu {
+  float: right;
+}
+@media only screen and (max-width: 719px) {
+  .layout > header > .nav > .right > .user-menu {
+    display: none;
+  }
+}
+.layout > header > .nav > .right > .language-select {
+  cursor: pointer;
+  padding: 8px 8px 8px 8px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-right: 8px;
+}
+.layout > header > .nav > .right > .language-select:hover {
+  background-color: rgba(177, 156, 118, 0.5);
+  border-radius: 4px;
+}
+.layout > header > .nav > .right > .language-select:active {
+  background-color: rgba(177, 156, 118, 0.7);
+  border-radius: 4px;
+}
+@media only screen and (max-width: 719px) {
+  .layout > header > .nav > .right > .language-select {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .layout > header > .nav > .right > .language-select:hover {
+    background-color: #333332;
+  }
+}
+.layout > header > .nav > .right > .menu-button {
+  float: right;
+  display: none;
+  padding: 10px;
+}
+@media only screen and (max-width: 719px) {
+  .layout > header > .nav > .right > .menu-button {
+    display: block;
+  }
+}
+.layout > main {
+  max-width: 768px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 32px 0px;
+}
+.layout > footer {
+  color: white;
+  background-color: black;
+}
+.layout > footer > .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1240px;
+  margin: auto;
+}
+.layout > footer > .footer-container > .sns {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.layout > footer > .footer-container > .sns > a {
+  display: block;
+  border-radius: 8px;
+}
+.layout > footer > .footer-container > .sns > a > img {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+.layout > footer > .footer-container > .sns > a:hover {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.layout > footer > .footer-container > .copyright {
+  margin-bottom: 32px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.mix-view {
+  background-color: #000;
+  padding: 30px;
+  border-radius: 8px;
+}
 

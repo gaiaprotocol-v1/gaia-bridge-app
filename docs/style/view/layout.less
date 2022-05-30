@@ -1,0 +1,165 @@
+.layout {
+    width: 100%;
+
+    >header {
+        display         : flex;
+        position        : sticky;
+        justify-items   : center;
+        width           : 100%;
+        background-color: black;
+        width           : 100%;
+        left            : 0;
+        top             : 0;
+        z-index         : 999;
+
+        @media @phone {
+            height: auto;
+        }
+
+        >.nav {
+            display    : flex;
+            flex-wrap  : wrap;
+            align-items: center;
+            width      : 100%;
+            max-width  : 768px;
+            margin     : auto;
+            padding    : 8px;
+
+            >.logo {
+                flex-grow: 1;
+
+                >a {
+                    display    : flex;
+                    align-items: center;
+
+                    >img {
+                        height      : 36px;
+                        margin-right: 4px;
+                    }
+
+                    >h1 {
+                        font-size  : 20px;
+                        font-family: 'Trajan Pro Bold';
+                        color      : rgba(177, 156, 118, 1);
+
+                        @media @phone {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            >.pc-menu {
+                @media @phone {
+                    display: none;
+                }
+            }
+
+            >.right {
+                display    : flex;
+                align-items: center;
+                .float-wrapper();
+
+                >.user-menu {
+                    float: right;
+
+                    @media @phone {
+                        display: none;
+                    }
+                }
+
+                >.language-select {
+                    cursor          : pointer;
+                    padding         : 8px 8px 8px 8px;
+                    font-size       : 0.875rem;
+                    text-decoration : none;
+                    color           : white;
+                    background-color: transparent;
+                    border          : none;
+                    margin-right    : 8px;
+
+                    &:hover {
+                        background-color: rgba(177, 156, 118, 0.5);
+                        border-radius   : 4px;
+                    }
+
+                    &:active {
+                        background-color: rgba(177, 156, 118, 0.7);
+                        border-radius   : 4px;
+                    }
+
+                    @media @phone {
+                        width           : 100%;
+                        height          : 100%;
+                        background-color: transparent;
+
+                        &:hover {
+                            background-color: #333332;
+                        }
+                    }
+                }
+
+                >.menu-button {
+                    float  : right;
+                    display: none;
+                    padding: 10px;
+
+                    @media @phone {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    >main {
+        max-width      : 768px;
+        display        : flex;
+        min-height     : 100vh;
+        flex-direction : column;
+        justify-content: center;
+        margin         : auto;
+        padding        : 32px 0px;
+    }
+
+    >footer {
+        color           : white;
+        background-color: black;
+
+        >.footer-container {
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+            flex-direction : column;
+            max-width      : 1240px;
+            margin         : auto;
+
+            >.sns {
+                display      : flex;
+                margin-top   : 32px;
+                margin-bottom: 32px;
+
+                >a {
+                    display      : block;
+                    border-radius: 8px;
+
+                    >img {
+                        padding: 8px;
+                        width  : 40px;
+                        height : 40px;
+                    }
+
+                    &:hover {
+                        background-color: rgba(177, 156, 118, 0.8);
+                    }
+                }
+            }
+
+            >.copyright {
+                margin-bottom: 32px;
+                font-size    : 14px;
+                font-weight  : 300;
+            }
+        }
+    }
+}
