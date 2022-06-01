@@ -11,6 +11,9 @@ export default class Mix implements View {
         Layout.current.title = "MIX";
         Layout.current.content.append(
             this.container = el(".mix-view",
+                el("header",
+                    el("img", { src: "/images/logo/mix.svg", alt: "mix" }),
+                ),
                 new MixSwaper(),
             ),
         );
