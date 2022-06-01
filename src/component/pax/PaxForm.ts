@@ -81,7 +81,7 @@ export default class PaxForm extends DomNode {
                 const balance = await this.sender.balanceOf(owner);
                 this.balanceDisplay
                     .empty()
-                    .appendText(`${await this.getFormatting(balance)} MIX`);
+                    .appendText(`${await this.getFormatting(balance)} PAX`);
 
                 if (this.isFrom === true) {
                     const input: DomNode<HTMLInputElement> = el("input", {

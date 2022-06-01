@@ -1046,6 +1046,247 @@ body {
   font-size: 12px;
   line-height: 12px;
 }
+.ijm-swaper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ijm-swaper > .form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  width: 100%;
+}
+.ijm-swaper > .form-container > .arrow {
+  float: left;
+  margin-top: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ijm-swaper > .form-container > .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ijm-swaper > .form-container > .form > .chain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ijm-swaper > .form-container > .form > .chain > img {
+  width: 52px;
+  height: 52px;
+}
+.ijm-swaper > .form-container > .form > .chain > p {
+  margin-top: 12px;
+  color: #E0D8C8;
+}
+.ijm-swaper > .form-container > .form > .chain > select {
+  border: solid 0.5px #666;
+  padding: 6px 8px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 12px;
+}
+.ijm-swaper > .form-container > .form > .chain > select:focus {
+  border-color: #E0D8C8;
+}
+.ijm-swaper > .form-container > .form > .balance {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #E0D8C8;
+}
+.ijm-swaper > .form-container > .form > .input-container {
+  width: 100%;
+  margin-top: 12px;
+}
+.ijm-swaper > .form-container > .form > .input-container > input {
+  border: solid 0.5px #666;
+  color: white;
+  background-color: black;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.ijm-swaper > .form-container > .form > .input-container > input:focus {
+  border-color: #E0D8C8;
+}
+.ijm-swaper > .form-container > .form > .button-container {
+  font-weight: 300;
+}
+.ijm-swaper > .form-container > .form > .button-container > .send-button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #b19c76;
+  border-radius: 4px;
+}
+.ijm-swaper > .form-container > .form > .button-container > .send-button:hover {
+  background-color: rgba(177, 156, 118, 0.9);
+}
+.ijm-swaper > .form-container > .form > .button-container > .send-button:active {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.ijm-swaper > .form-container > .form > .button-container > .connect-button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #b19c76;
+  border-radius: 4px;
+}
+.ijm-swaper > .form-container > .form > .button-container > .connect-button:hover {
+  background-color: rgba(177, 156, 118, 0.9);
+}
+.ijm-swaper > .form-container > .form > .button-container > .connect-button:active {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.ijm-swaper > .fee-container {
+  padding: 0px 36px;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ijm-swaper > .fee-container > .content {
+  display: flex;
+  align-items: baseline;
+}
+.ijm-swaper > .fee-container > .content > h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.ijm-swaper > .fee-container > .content > span {
+  margin-left: 4px;
+  color: #e0d8c8;
+}
+.ijm-swaper > .fee-container > p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.ijm-swaper > .received-container {
+  padding: 0px 36px;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ijm-swaper > .received-container > h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.ijm-swaper > .received-container > p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.ijm-swaper > .warning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px 0px;
+  padding: 11px 0px;
+  background: rgba(224, 216, 200, 0.8);
+  border-radius: 4px;
+  text-align: left;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 300;
+}
+@media only screen and (max-width: 719px) {
+  .ijm-swaper > .warning {
+    width: 90%;
+  }
+}
+.ijm-swaper > .warning > img {
+  margin-right: 12px;
+}
+.ijm-swaper > .button-container {
+  width: 100%;
+  max-width: 400px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.ijm-swaper > .button-container > button {
+  width: 100%;
+  background-color: #b19c76;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 24px;
+  padding: 12px 48px;
+}
+.ijm-swaper > .button-container > button:hover {
+  background-color: rgba(177, 156, 118, 0.9);
+}
+.ijm-swaper > .button-container > button:active {
+  background-color: rgba(177, 156, 118, 0.8);
+}
+.ijm-swaper > .history {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.ijm-swaper > .history > h2 {
+  text-align: left;
+  font-weight: 500;
+  margin: 16px 0px;
+}
+.ijm-swaper > .history > p {
+  color: #E0D8C8;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.ijm-swaper > .history > hr {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  height: 0.5px;
+  color: rgba(224, 216, 200);
+  background-color: rgba(224, 216, 200);
+}
+.ijm-swaper > .history > .sended-title {
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  color: #b19c76;
+}
+.ijm-swaper > .history > .sended-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ijm-swaper > .history > .sended-list > .sended {
+  font-size: 14px;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.ijm-swaper > .history > .sended-list > tbody > .history-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4px 0px;
+}
+.ijm-swaper > .history > .sended-list > tbody > .history-item > p {
+  font-size: 12px;
+  line-height: 12px;
+}
 .layout {
   width: 100%;
 }
@@ -1222,6 +1463,18 @@ body {
   justify-content: center;
 }
 .pax-view > header > img {
+  height: 34px;
+}
+.ijm-view {
+  background-color: #000;
+  padding: 30px;
+  border-radius: 8px;
+}
+.ijm-view > header {
+  display: flex;
+  justify-content: center;
+}
+.ijm-view > header > img {
   height: 34px;
 }
 

@@ -4,6 +4,7 @@ import superagent from "superagent";
 import Layout from "./view/Layout";
 import Mix from "./view/Mix";
 import Pax from "./view/Pax";
+import Ijm from "./view/Ijm";
 
 (async () => {
     msg.language = BrowserInfo.language;
@@ -12,6 +13,7 @@ import Pax from "./view/Pax";
     SkyRouter.route("**", Layout);
     SkyRouter.route("mix", Mix);
     SkyRouter.route("pax", Pax);
+    SkyRouter.route("ijm", Ijm);
 
     if (sessionStorage.__spa_path) {
         SkyRouter.go(sessionStorage.__spa_path);

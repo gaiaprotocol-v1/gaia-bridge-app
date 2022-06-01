@@ -31,7 +31,7 @@ export default class PaxSended extends DomNode {
             el(".history-item",
                 el("p", `${await this.getChainName(this.fromChain)}`),
                 el("p", `${await this.getChainName(this.toChain)}`),
-                el("p", `${await this.getFormatting(sended)} MIX`),
+                el("p", `${await this.getFormatting(sended)} PAX`),
                 el("p", received === true ? el(".done", "전송 완료") : el("a.retry-button", "재시도", {
                     click: () => this.retry(),
                 })),
