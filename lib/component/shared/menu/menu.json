@@ -1,0 +1,33 @@
+{
+    "menu": [
+        {
+            "key": "BRIDGE_MENU",
+            "children": [
+                {
+                    "uri": "mix",
+                    "key": "MIX_MENU"
+                },
+                {
+                    "uri": "pax",
+                    "key": "PAX_MENU"
+                },
+                {
+                    "uri": "ijm",
+                    "key": "IJM_MENU"
+                },
+                {
+                    "uri": "genesis",
+                    "key": "GENESIS_MENU"
+                },
+                {
+                    "uri": "supernova",
+                    "key": "SUPERNOVA_MENU"
+                },
+                {
+                    "uri": "stabledao",
+                    "key": "STABLEDAO_MENU"
+                }
+            ]
+        }
+    ]
+}

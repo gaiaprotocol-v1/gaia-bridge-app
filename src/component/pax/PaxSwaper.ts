@@ -169,7 +169,7 @@ export default class PaxSwaper extends DomNode {
                 try {
                     const result = await superagent
                         .get(
-                            `https://api.chainhorizon.org/pax/signsend?receiver=${receiver}&fromChain=${this.fromForm.chainId
+                            `https://api.gaiabridge.com/pax/signsend?receiver=${receiver}&fromChain=${this.fromForm.chainId
                             }&toChain=${this.toForm.chainId
                             }&sender=${sender}&sendId=${sendId}&amount=${amount.toString()}`
                         )
